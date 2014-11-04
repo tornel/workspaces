@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://qlcplus.sourceforge.net/Workspace" CurrentWindow="ShowManager">
+<Workspace CurrentWindow="VirtualConsole" xmlns="http://qlcplus.sourceforge.net/Workspace">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.8.2 GIT</Version>
@@ -113,63 +113,63 @@
    <Address>9</Address>
    <Channels>1</Channels>
   </Fixture>
-  <Function Name="New Show 0" ID="0" Type="Show">
-   <TimeDivision BPM="140" Type="BPM_2_4"/>
+  <Function Name="New Show 0" Type="Show" ID="0">
+   <TimeDivision Type="BPM_2_4" BPM="140"/>
    <Track Name="contras" isMute="0" ID="0">
-    <ShowFunction Duration="2550" ID="14" StartTime="857" Color="#556b80"/>
-    <ShowFunction Duration="840" ID="16" StartTime="3428" Color="#556b80"/>
-    <ShowFunction Duration="2550" ID="14" StartTime="4285" Color="#556b80"/>
-    <ShowFunction Duration="840" ID="16" StartTime="6880" Color="#556b80"/>
-    <ShowFunction Duration="2550" ID="14" StartTime="7714" Color="#556b80"/>
-    <ShowFunction Duration="2550" ID="14" StartTime="11142" Color="#556b80"/>
-    <ShowFunction Duration="840" ID="16" StartTime="10285" Color="#556b80"/>
-    <ShowFunction Duration="6640" ID="24" StartTime="57428" Color="#556b80"/>
-    <ShowFunction Duration="5880" ID="36" StartTime="43714" Color="#556b80"/>
-    <ShowFunction Duration="5880" ID="37" StartTime="86571" Color="#556b80"/>
+    <ShowFunction Duration="2550" StartTime="857" Color="#556b80" ID="14"/>
+    <ShowFunction Duration="840" StartTime="3428" Color="#556b80" ID="16"/>
+    <ShowFunction Duration="2550" StartTime="4285" Color="#556b80" ID="14"/>
+    <ShowFunction Duration="840" StartTime="6880" Color="#556b80" ID="16"/>
+    <ShowFunction Duration="2550" StartTime="7714" Color="#556b80" ID="14"/>
+    <ShowFunction Duration="2550" StartTime="11142" Color="#556b80" ID="14"/>
+    <ShowFunction Duration="840" StartTime="10285" Color="#556b80" ID="16"/>
+    <ShowFunction Duration="6640" StartTime="57428" Color="#556b80" ID="24"/>
+    <ShowFunction Duration="5880" StartTime="43714" Color="#556b80" ID="36"/>
+    <ShowFunction Duration="5880" StartTime="86571" Color="#556b80" ID="37"/>
    </Track>
    <Track Name="Track 1" isMute="0" ID="1">
-    <ShowFunction Locked="1" Duration="104032" ID="1" StartTime="857" Color="#608053"/>
+    <ShowFunction Duration="104032" Locked="1" StartTime="857" Color="#608053" ID="1"/>
    </Track>
    <Track Name="frontales" isMute="0" ID="2">
-    <ShowFunction Duration="2340" ID="15" StartTime="13714" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="17142" Color="#556b80"/>
-    <ShowFunction Duration="1240" ID="18" StartTime="21428" Color="#556b80"/>
-    <ShowFunction Duration="1670" ID="19" StartTime="23142" Color="#556b80"/>
-    <ShowFunction Duration="1230" ID="20" StartTime="24857" Color="#556b80"/>
-    <ShowFunction Duration="4240" ID="21" StartTime="26580" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="32571" Color="#556b80"/>
-    <ShowFunction Duration="2470" ID="22" StartTime="36000" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="49700" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="53160" Color="#556b80"/>
-    <ShowFunction Duration="1240" ID="18" StartTime="64340" Color="#556b80"/>
-    <ShowFunction Duration="1670" ID="19" StartTime="66000" Color="#556b80"/>
-    <ShowFunction Duration="1230" ID="20" StartTime="67760" Color="#556b80"/>
-    <ShowFunction Duration="1230" ID="20" StartTime="67760" Color="#556b80"/>
-    <ShowFunction Duration="4240" ID="21" StartTime="69428" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="75420" Color="#556b80"/>
-    <ShowFunction Duration="2470" ID="22" StartTime="78857" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="92571" Color="#556b80"/>
-    <ShowFunction Duration="2340" ID="15" StartTime="96000" Color="#556b80"/>
-    <ShowFunction Duration="2660" ID="28" StartTime="99428" Color="#556b80"/>
-    <ShowFunction Duration="1599" ID="29" StartTime="40285" Color="#556b80"/>
-    <ShowFunction Duration="1599" ID="29" StartTime="38571" Color="#556b80"/>
-    <ShowFunction Duration="1599" ID="29" StartTime="81428" Color="#556b80"/>
-    <ShowFunction Duration="1599" ID="29" StartTime="83142" Color="#556b80"/>
-    <ShowFunction Duration="1599" ID="32" StartTime="42000" Color="#556b80"/>
-    <ShowFunction Duration="1599" ID="32" StartTime="84840" Color="#556b80"/>
+    <ShowFunction Duration="2340" StartTime="13714" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="2340" StartTime="17142" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="1240" StartTime="21428" Color="#556b80" ID="18"/>
+    <ShowFunction Duration="1670" StartTime="23142" Color="#556b80" ID="19"/>
+    <ShowFunction Duration="1230" StartTime="24857" Color="#556b80" ID="20"/>
+    <ShowFunction Duration="4240" StartTime="26680" Color="#556b80" ID="21"/>
+    <ShowFunction Duration="2340" StartTime="32571" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="2470" StartTime="36000" Color="#556b80" ID="22"/>
+    <ShowFunction Duration="2340" StartTime="49700" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="2340" StartTime="53160" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="1240" StartTime="64340" Color="#556b80" ID="18"/>
+    <ShowFunction Duration="1670" StartTime="66000" Color="#556b80" ID="19"/>
+    <ShowFunction Duration="1230" StartTime="67760" Color="#556b80" ID="20"/>
+    <ShowFunction Duration="1230" StartTime="67760" Color="#556b80" ID="20"/>
+    <ShowFunction Duration="4240" StartTime="69428" Color="#556b80" ID="21"/>
+    <ShowFunction Duration="2340" StartTime="75420" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="2470" StartTime="78857" Color="#556b80" ID="22"/>
+    <ShowFunction Duration="2340" StartTime="92571" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="2340" StartTime="96000" Color="#556b80" ID="15"/>
+    <ShowFunction Duration="2660" StartTime="99428" Color="#556b80" ID="28"/>
+    <ShowFunction Duration="1599" StartTime="40285" Color="#556b80" ID="29"/>
+    <ShowFunction Duration="1599" StartTime="38571" Color="#556b80" ID="29"/>
+    <ShowFunction Duration="1599" StartTime="81428" Color="#556b80" ID="29"/>
+    <ShowFunction Duration="1599" StartTime="83142" Color="#556b80" ID="29"/>
+    <ShowFunction Duration="1599" StartTime="42000" Color="#556b80" ID="32"/>
+    <ShowFunction Duration="1599" StartTime="84840" Color="#556b80" ID="32"/>
    </Track>
    <Track Name="fx" isMute="0" ID="3">
-    <ShowFunction Duration="4000" ID="30" StartTime="104460" Color="#556b80"/>
-    <ShowFunction Duration="0" ID="31" StartTime="110640" Color="#556b80"/>
-    <ShowFunction Duration="820" ID="13" StartTime="0" Color="#556b80"/>
+    <ShowFunction Duration="3000" StartTime="104460" Color="#556b80" ID="30"/>
+    <ShowFunction Duration="0" StartTime="109860" Color="#556b80" ID="31"/>
+    <ShowFunction Duration="820" StartTime="0" Color="#556b80" ID="13"/>
    </Track>
   </Function>
-  <Function Name="audio.wav" ID="1" Type="Audio">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="audio.wav" Type="Audio" ID="1">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <Source>files/audio.wav</Source>
   </Function>
-  <Function Name="rojo 1" ID="2" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="rojo 1" Type="Scene" ID="2">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -181,8 +181,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="rojo 2" ID="3" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="rojo 2" Type="Scene" ID="3">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -194,8 +194,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="rojo 3" ID="4" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="rojo 3" Type="Scene" ID="4">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -207,8 +207,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="azul 1" ID="5" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="azul 1" Type="Scene" ID="5">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -220,8 +220,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="azul 2" ID="6" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="azul 2" Type="Scene" ID="6">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -233,8 +233,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="azul 3" ID="7" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="azul 3" Type="Scene" ID="7">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -246,8 +246,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="corrector" ID="8" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="corrector" Type="Scene" ID="8">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -259,8 +259,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="ambar" ID="9" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="ambar" Type="Scene" ID="9">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -272,8 +272,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="cenital" ID="10" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="cenital" Type="Scene" ID="10">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -285,8 +285,8 @@
    <FixtureVal ID="8">0,255</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="piso" ID="11" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="piso" Type="Scene" ID="11">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -298,8 +298,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,255</FixtureVal>
   </Function>
-  <Function Name="BO" ID="12" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="BO" Type="Scene" ID="12">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -311,56 +311,56 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="piso 1" ID="13" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="piso 1" Type="Chaser" ID="13">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="110" FadeIn="0" Number="0">11</Step>
-   <Step FadeOut="0" Hold="100" FadeIn="0" Number="1">12</Step>
-   <Step FadeOut="0" Hold="100" FadeIn="0" Number="2">11</Step>
-   <Step FadeOut="0" Hold="100" FadeIn="0" Number="3">12</Step>
-   <Step FadeOut="0" Hold="110" FadeIn="0" Number="4">11</Step>
-   <Step FadeOut="0" Hold="100" FadeIn="0" Number="5">12</Step>
-   <Step FadeOut="0" Hold="100" FadeIn="0" Number="6">11</Step>
-   <Step FadeOut="0" Hold="100" FadeIn="0" Number="7">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="110" FadeIn="0" FadeOut="0" Number="0">11</Step>
+   <Step Hold="100" FadeIn="0" FadeOut="0" Number="1">12</Step>
+   <Step Hold="100" FadeIn="0" FadeOut="0" Number="2">11</Step>
+   <Step Hold="100" FadeIn="0" FadeOut="0" Number="3">12</Step>
+   <Step Hold="110" FadeIn="0" FadeOut="0" Number="4">11</Step>
+   <Step Hold="100" FadeIn="0" FadeOut="0" Number="5">12</Step>
+   <Step Hold="100" FadeIn="0" FadeOut="0" Number="6">11</Step>
+   <Step Hold="100" FadeIn="0" FadeOut="0" Number="7">12</Step>
   </Function>
-  <Function Name="contras azules" ID="14" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="200"/>
+  <Function Name="contras azules" Type="Chaser" ID="14">
+   <Speed Duration="200" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="0">5</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="1">6</Step>
-   <Step FadeOut="0" Hold="400" FadeIn="0" Number="2">7</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="3">5</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="4">6</Step>
-   <Step FadeOut="0" Hold="400" FadeIn="0" Number="5">7</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="6">5</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="7">6</Step>
-   <Step FadeOut="0" Hold="400" FadeIn="0" Number="8">7</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="0">5</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="1">6</Step>
+   <Step Hold="400" FadeIn="0" FadeOut="0" Number="2">7</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="3">5</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="4">6</Step>
+   <Step Hold="400" FadeIn="0" FadeOut="0" Number="5">7</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="6">5</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="7">6</Step>
+   <Step Hold="400" FadeIn="0" FadeOut="0" Number="8">7</Step>
   </Function>
-  <Function Name="frontales 1" ID="15" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="frontales 1" Type="Chaser" ID="15">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="0">8</Step>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="1">9</Step>
-   <Step FadeOut="1000" Hold="1520" FadeIn="0" Number="2">10</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="0">8</Step>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="1">9</Step>
+   <Step Hold="1520" FadeIn="0" FadeOut="1000" Number="2">10</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="contras rojos" ID="16" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="200"/>
+  <Function Name="contras rojos" Type="Chaser" ID="16">
+   <Speed Duration="200" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="0">2</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="1">3</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="2">4</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="0">2</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="1">3</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="2">4</Step>
   </Function>
-  <Function Name="all" ID="17" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="all" Type="Scene" ID="17">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -372,61 +372,61 @@
    <FixtureVal ID="8">0,255</FixtureVal>
    <FixtureVal ID="9">0,255</FixtureVal>
   </Function>
-  <Function Name="frontales 2" ID="18" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="frontales 2" Type="Chaser" ID="18">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="0">8</Step>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="1">9</Step>
-   <Step FadeOut="0" Hold="420" FadeIn="0" Number="2">10</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="0">8</Step>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="1">9</Step>
+   <Step Hold="420" FadeIn="0" FadeOut="0" Number="2">10</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="frontales 3" ID="19" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="frontales 3" Type="Chaser" ID="19">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="500" FadeIn="0" Number="0">10</Step>
-   <Step FadeOut="0" Hold="250" FadeIn="0" Number="1">9</Step>
-   <Step FadeOut="0" Hold="920" FadeIn="0" Number="2">8</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="500" FadeIn="0" FadeOut="0" Number="0">10</Step>
+   <Step Hold="250" FadeIn="0" FadeOut="0" Number="1">9</Step>
+   <Step Hold="920" FadeIn="0" FadeOut="0" Number="2">8</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="frontales 4" ID="20" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="frontales 4" Type="Chaser" ID="20">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="0">9</Step>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="1">8</Step>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="2">10</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="0">9</Step>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="1">8</Step>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="2">10</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="frontales 5" ID="21" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="frontales 5" Type="Chaser" ID="21">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="820" FadeIn="0" Number="0">10</Step>
-   <Step FadeOut="0" Hold="220" FadeIn="0" Number="1">9</Step>
-   <Step FadeOut="1690" Hold="3200" FadeIn="0" Number="2">8</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="820" FadeIn="0" FadeOut="0" Number="0">10</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="1">9</Step>
+   <Step Hold="3160" FadeIn="0" FadeOut="1690" Number="2">8</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="frontales vibrato" ID="22" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="frontales vibrato" Type="Chaser" ID="22">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="0">8</Step>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="1">9</Step>
-   <Step FadeOut="0" Hold="420" FadeIn="0" Number="2">10</Step>
-   <Step FadeOut="0" Hold="200" FadeIn="0" Number="3">23</Step>
-   <Step FadeOut="0" Hold="240" FadeIn="0" Number="4">10</Step>
-   <Step FadeOut="0" Hold="790" FadeIn="0" Number="5">23</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="6">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="0">8</Step>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="1">9</Step>
+   <Step Hold="420" FadeIn="0" FadeOut="0" Number="2">10</Step>
+   <Step Hold="200" FadeIn="0" FadeOut="0" Number="3">23</Step>
+   <Step Hold="240" FadeIn="0" FadeOut="0" Number="4">10</Step>
+   <Step Hold="790" FadeIn="0" FadeOut="0" Number="5">23</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="6">12</Step>
   </Function>
-  <Function Name="frontales" ID="23" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="frontales" Type="Scene" ID="23">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -438,49 +438,49 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="contras centro afuera centro" ID="24" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="200"/>
+  <Function Name="contras centro afuera centro" Type="Chaser" ID="24">
+   <Speed Duration="200" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="0">26</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="1">27</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="2">26</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="3">27</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="4">26</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="5">27</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="6">26</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="7">27</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="8">26</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="9">27</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="10">26</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="11">27</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="12">26</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="13">27</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="14">26</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="15">27</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="16">26</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="17">27</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="18">26</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="19">27</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="20">26</Step>
-   <Step FadeOut="0" Hold="260" FadeIn="0" Number="21">27</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="22">26</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="23">27</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="24">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="0">26</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="1">27</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="2">26</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="3">27</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="4">26</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="5">27</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="6">26</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="7">27</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="8">26</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="9">27</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="10">26</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="11">27</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="12">26</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="13">27</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="14">26</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="15">27</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="16">26</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="17">27</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="18">26</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="19">27</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="20">26</Step>
+   <Step Hold="260" FadeIn="0" FadeOut="0" Number="21">27</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="22">26</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="23">27</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="24">12</Step>
   </Function>
-  <Function Name="contras afuera centro afuera" ID="25" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="200"/>
+  <Function Name="contras afuera centro afuera" Type="Chaser" ID="25">
+   <Speed Duration="200" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="0">27</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="1">26</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="2">27</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="0">27</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="1">26</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="2">27</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="centros" ID="26" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="centros" Type="Scene" ID="26">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -492,8 +492,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="afueras" ID="27" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="afueras" Type="Scene" ID="27">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -505,55 +505,55 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="fin" ID="28" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="410"/>
+  <Function Name="fin" Type="Chaser" ID="28">
+   <Speed Duration="410" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="0">8</Step>
-   <Step FadeOut="0" Hold="410" FadeIn="0" Number="1">9</Step>
-   <Step FadeOut="0" Hold="460" FadeIn="0" Number="2">13</Step>
-   <Step FadeOut="0" Hold="460" FadeIn="0" Number="3">13</Step>
-   <Step FadeOut="0" Hold="460" FadeIn="0" Number="4">13</Step>
-   <Step FadeOut="1530" Hold="460" FadeIn="0" Number="5">13</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="6">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="0">8</Step>
+   <Step Hold="410" FadeIn="0" FadeOut="0" Number="1">9</Step>
+   <Step Hold="460" FadeIn="0" FadeOut="0" Number="2">13</Step>
+   <Step Hold="460" FadeIn="0" FadeOut="0" Number="3">13</Step>
+   <Step Hold="460" FadeIn="0" FadeOut="0" Number="4">13</Step>
+   <Step Hold="460" FadeIn="0" FadeOut="1530" Number="5">13</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="6">12</Step>
   </Function>
-  <Function Name="crescendo" ID="29" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="crescendo" Type="Chaser" ID="29">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="533" FadeIn="0" Number="0">17</Step>
-   <Step FadeOut="0" Hold="533" FadeIn="0" Number="1">23</Step>
-   <Step FadeOut="0" Hold="533" FadeIn="0" Number="2">10</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="533" FadeIn="0" FadeOut="0" Number="0">17</Step>
+   <Step Hold="533" FadeIn="0" FadeOut="0" Number="1">23</Step>
+   <Step Hold="533" FadeIn="0" FadeOut="0" Number="2">10</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="all" ID="30" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="all" Type="Chaser" ID="30">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="2000" Hold="4000" FadeIn="0" Number="0">17</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="3000" FadeIn="0" FadeOut="2000" Number="0">17</Step>
   </Function>
-  <Function Name="BO" ID="31" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="BO" Type="Chaser" ID="31">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="Default" FadeIn="Default" Duration="Common"/>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="0">12</Step>
+   <SpeedModes Duration="Common" FadeIn="Default" FadeOut="Default"/>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="0">12</Step>
   </Function>
-  <Function Name="crescendo (Copy)" ID="32" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="crescendo (Copy)" Type="Chaser" ID="32">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="533" FadeIn="0" Number="0">17</Step>
-   <Step FadeOut="0" Hold="533" FadeIn="0" Number="1">23</Step>
-   <Step FadeOut="6000" Hold="533" FadeIn="0" Number="2">10</Step>
-   <Step FadeOut="0" Hold="0" FadeIn="0" Number="3">12</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="533" FadeIn="0" FadeOut="0" Number="0">17</Step>
+   <Step Hold="533" FadeIn="0" FadeOut="0" Number="1">23</Step>
+   <Step Hold="533" FadeIn="0" FadeOut="6000" Number="2">10</Step>
+   <Step Hold="0" FadeIn="0" FadeOut="0" Number="3">12</Step>
   </Function>
-  <Function Name="1" ID="33" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="1" Type="Scene" ID="33">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -565,8 +565,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="2" ID="34" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="2" Type="Scene" ID="34">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
@@ -578,8 +578,8 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="3" ID="35" Type="Scene">
-   <Speed FadeOut="0" FadeIn="0" Duration="0"/>
+  <Function Name="3" Type="Scene" ID="35">
+   <Speed Duration="0" FadeIn="0" FadeOut="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
@@ -591,90 +591,90 @@
    <FixtureVal ID="8">0,0</FixtureVal>
    <FixtureVal ID="9">0,0</FixtureVal>
   </Function>
-  <Function Name="contras 123" ID="36" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="200"/>
+  <Function Name="contras 123" Type="Chaser" ID="36">
+   <Speed Duration="200" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="0">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="1">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="2">35</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="3">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="4">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="5">35</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="6">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="7">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="8">35</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="9">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="10">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="11">35</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="12">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="13">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="14">35</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="15">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="16">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="17">35</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="18">33</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="19">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="20">35</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="0">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="1">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="2">35</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="3">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="4">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="5">35</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="6">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="7">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="8">35</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="9">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="10">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="11">35</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="12">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="13">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="14">35</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="15">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="16">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="17">35</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="18">33</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="19">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="20">35</Step>
   </Function>
-  <Function Name="contras 123 (Copy)" ID="37" Type="Chaser">
-   <Speed FadeOut="0" FadeIn="0" Duration="200"/>
+  <Function Name="contras 123 (Copy)" Type="Chaser" ID="37">
+   <Speed Duration="200" FadeIn="0" FadeOut="0"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
-   <SpeedModes FadeOut="PerStep" FadeIn="PerStep" Duration="PerStep"/>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="0">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="1">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="2">33</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="3">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="4">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="5">33</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="6">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="7">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="8">33</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="9">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="10">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="11">33</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="12">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="13">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="14">33</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="15">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="16">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="17">33</Step>
-   <Step FadeOut="0" Hold="270" FadeIn="0" Number="18">35</Step>
-   <Step FadeOut="0" Hold="180" FadeIn="0" Number="19">34</Step>
-   <Step FadeOut="0" Hold="390" FadeIn="0" Number="20">33</Step>
+   <SpeedModes Duration="PerStep" FadeIn="PerStep" FadeOut="PerStep"/>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="0">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="1">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="2">33</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="3">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="4">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="5">33</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="6">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="7">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="8">33</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="9">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="10">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="11">33</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="12">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="13">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="14">33</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="15">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="16">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="17">33</Step>
+   <Step Hold="270" FadeIn="0" FadeOut="0" Number="18">35</Step>
+   <Step Hold="180" FadeIn="0" FadeOut="0" Number="19">34</Step>
+   <Step Hold="390" FadeIn="0" FadeOut="0" Number="20">33</Step>
   </Function>
   <Monitor ShowLabels="0" DisplayMode="1">
-   <BackgroundItem ID="6">/home/tornel/workspaces/gift/files/azul 2.jpg</BackgroundItem>
-   <BackgroundItem ID="5">/home/tornel/workspaces/gift/files/azul 1.jpg</BackgroundItem>
-   <BackgroundItem ID="4">/home/tornel/workspaces/gift/files/rojo 3.jpg</BackgroundItem>
-   <BackgroundItem ID="11">/home/tornel/workspaces/gift/files/piso.jpg</BackgroundItem>
-   <BackgroundItem ID="10">/home/tornel/workspaces/gift/files/cenital.jpg</BackgroundItem>
-   <BackgroundItem ID="9">/home/tornel/workspaces/gift/files/ambar.jpg</BackgroundItem>
-   <BackgroundItem ID="8">/home/tornel/workspaces/gift/files/corrector.jpg</BackgroundItem>
-   <BackgroundItem ID="12">/home/tornel/workspaces/gift/files/BO.jpg</BackgroundItem>
-   <BackgroundItem ID="17">/home/tornel/workspaces/gift/files/all.jpg</BackgroundItem>
-   <BackgroundItem ID="23">/home/tornel/workspaces/gift/files/frontales.jpg</BackgroundItem>
-   <BackgroundItem ID="27">/home/tornel/workspaces/gift/files/afueras.jpg</BackgroundItem>
-   <BackgroundItem ID="26">/home/tornel/workspaces/gift/files/centros.jpg</BackgroundItem>
-   <BackgroundItem ID="35">/home/tornel/workspaces/gift/files/3.jpg</BackgroundItem>
-   <BackgroundItem ID="34">/home/tornel/workspaces/gift/files/2.jpg</BackgroundItem>
-   <BackgroundItem ID="33">/home/tornel/workspaces/gift/files/1.jpg</BackgroundItem>
-   <BackgroundItem ID="3">/home/tornel/workspaces/gift/files/rojo 2.jpg</BackgroundItem>
-   <BackgroundItem ID="2">/home/tornel/workspaces/gift/files/rojo 1.jpg</BackgroundItem>
-   <BackgroundItem ID="7">/home/tornel/workspaces/gift/files/azul 3.jpg</BackgroundItem>
-   <Grid Width="5" Height="5" Units="0"/>
-   <FxItem YPos="735.294" GelColor="#0000ff" XPos="1213.24" ID="3"/>
-   <FxItem YPos="757.353" GelColor="#ff0000" XPos="3411.77" ID="2"/>
-   <FxItem YPos="742.647" GelColor="#ff0000" XPos="2786.76" ID="1"/>
-   <FxItem YPos="735.294" GelColor="#ff0000" XPos="919.118" ID="0"/>
-   <FxItem YPos="169.118" GelColor="#ffa823" XPos="294.118" ID="7"/>
-   <FxItem YPos="235.294" GelColor="#7ec1f5" XPos="4000" ID="6"/>
-   <FxItem YPos="764.706" GelColor="#0000ff" XPos="3786.76" ID="5"/>
-   <FxItem YPos="750" GelColor="#0000ff" XPos="1691.17" ID="4"/>
+   <BackgroundItem ID="11">files/piso.jpg</BackgroundItem>
+   <BackgroundItem ID="10">files/cenital.jpg</BackgroundItem>
+   <BackgroundItem ID="9">files/ambar.jpg</BackgroundItem>
+   <BackgroundItem ID="8">files/corrector.jpg</BackgroundItem>
+   <BackgroundItem ID="12">files/BO.jpg</BackgroundItem>
+   <BackgroundItem ID="3">files/rojo 2.jpg</BackgroundItem>
+   <BackgroundItem ID="2">files/rojo 1.jpg</BackgroundItem>
+   <BackgroundItem ID="7">files/azul 3.jpg</BackgroundItem>
+   <BackgroundItem ID="35">files/3.jpg</BackgroundItem>
+   <BackgroundItem ID="6">files/azul 2.jpg</BackgroundItem>
+   <BackgroundItem ID="34">files/2.jpg</BackgroundItem>
+   <BackgroundItem ID="5">files/azul 1.jpg</BackgroundItem>
+   <BackgroundItem ID="33">files/1.jpg</BackgroundItem>
+   <BackgroundItem ID="4">files/rojo 3.jpg</BackgroundItem>
+   <BackgroundItem ID="27">files/afueras.jpg</BackgroundItem>
+   <BackgroundItem ID="26">files/centros.jpg</BackgroundItem>
+   <BackgroundItem ID="17">files/all.jpg</BackgroundItem>
+   <BackgroundItem ID="23">files/frontales.jpg</BackgroundItem>
+   <Grid Units="0" Height="5" Width="5"/>
    <FxItem YPos="4580.88" XPos="2300.86" ID="9"/>
    <FxItem YPos="330.882" XPos="2330.89" ID="8"/>
+   <FxItem YPos="735.294" XPos="1213.24" GelColor="#0000ff" ID="3"/>
+   <FxItem YPos="757.353" XPos="3411.77" GelColor="#ff0000" ID="2"/>
+   <FxItem YPos="742.647" XPos="2786.76" GelColor="#ff0000" ID="1"/>
+   <FxItem YPos="735.294" XPos="919.118" GelColor="#ff0000" ID="0"/>
+   <FxItem YPos="169.118" XPos="294.118" GelColor="#ffa823" ID="7"/>
+   <FxItem YPos="235.294" XPos="4000" GelColor="#7ec1f5" ID="6"/>
+   <FxItem YPos="764.706" XPos="3786.76" GelColor="#0000ff" ID="5"/>
+   <FxItem YPos="750" XPos="1691.17" GelColor="#0000ff" ID="4"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -694,7 +694,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Width="265" Visible="False" X="20" Y="20" Height="485"/>
+    <WindowState Height="485" X="15" Width="265" Y="20" Visible="True"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -703,12 +703,12 @@
     <Enable>
      <Key></Key>
     </Enable>
-    <Button Caption="PLAY THIS!                            with the 2D Monitor enabled" Icon="" ID="0">
+    <Button Icon="" Caption="PLAY THIS!                              with the 2D Monitor enabled" ID="0">
      <Function ID="0"/>
      <Action>Toggle</Action>
      <Key>Space</Key>
      <Intensity Adjust="False">100</Intensity>
-     <WindowState Width="220" Visible="False" X="20" Y="85" Height="130"/>
+     <WindowState Height="135" X="20" Width="225" Y="85" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -718,7 +718,7 @@
      </Appearance>
     </Button>
     <Label Caption="(please, make sure the grid is 5x5)" ID="1">
-     <WindowState Width="190" Visible="False" X="35" Y="220" Height="20"/>
+     <WindowState Height="20" X="35" Width="190" Y="220" Visible="True"/>
      <Appearance>
       <FrameStyle>None</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -730,9 +730,9 @@
    </SoloFrame>
   </Frame>
   <Properties>
-   <Size Width="1920" Height="1080"/>
+   <Size Height="1080" Width="1920"/>
    <Keyboard TapModifier="67108864"/>
-   <GrandMaster ValueMode="Reduce" SliderMode="Normal" ChannelMode="Intensity"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
  <SimpleDesk>
